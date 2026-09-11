@@ -1,4 +1,4 @@
-# Portal Interno de Chamados Tecnicos (Helpdesk)
+# OmniDesk
 
 Sistema fullstack para abertura e acompanhamento de chamados tecnicos internos, com controle de acesso por perfil (funcionario e suporte).
 
