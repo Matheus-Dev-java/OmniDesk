@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #1f2933;
+}
+
+.pagina-auth {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #10233f;
+}
+
+.formulario {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  width: 380px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.formulario h1 {
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+
+.subtitulo {
+  color: #6b7785;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.formulario label,
+.formulario-largo label,
+.formulario-status label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 14px;
+  margin-bottom: 6px;
+}
+
+.formulario input,
+.formulario-largo input,
+.formulario-largo textarea,
+.formulario-largo select,
+.formulario-status select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d3dae2;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.formulario button,
+.formulario-largo button,
+.formulario-status button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #10233f;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.texto-rodape {
+  margin-top: 18px;
+  font-size: 13px;
+  text-align: center;
+  color: #6b7785;
+}
+
+.mensagem-erro {
+  background-color: #fdecea;
+  color: #b3261e;
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.mensagem-sucesso {
+  background-color: #e6f4ea;
+  color: #1e7d34;
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.pagina {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 32px 20px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.acoes-cabecalho {
+  display: flex;
+  gap: 10px;
+}
+
+.botao {
+  background-color: #10233f;
+  color: #ffffff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.botao-secundario {
+  background-color: transparent;
+  color: #10233f;
+  border: 1px solid #10233f;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.botao-voltar {
+  background: none;
+  border: none;
+  color: #10233f;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tabela th,
+.tabela td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #eef1f4;
+  font-size: 14px;
+}
+
+.tabela th {
+  background-color: #eef1f4;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #6b7785;
+}
+
+.status {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status-aberto {
+  background-color: #fdecea;
+  color: #b3261e;
+}
+
+.status-em_andamento {
+  background-color: #fff4e0;
+  color: #9a6700;
+}
+
+.status-resolvido {
+  background-color: #e6f4ea;
+  color: #1e7d34;
+}
+
+.status-fechado {
+  background-color: #e8eaed;
+  color: #444c56;
+}
+
+.formulario-largo {
+  background-color: #ffffff;
+  padding: 28px;
+  border-radius: 8px;
+  max-width: 560px;
+}
+
+.acoes-formulario {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.acoes-formulario button {
+  margin-top: 0;
+}
+
+.cartao-detalhe {
+  background-color: #ffffff;
+  padding: 28px;
+  border-radius: 8px;
+}
+
+.descricao-chamado {
+  margin-top: 8px;
+  color: #45505c;
+  line-height: 1.5;
+}
+
+.grade-detalhe {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  margin-top: 24px;
+}
+
+.rotulo {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #6b7785;
+  font-weight: 600;
+}
+
+.formulario-status {
+  margin-top: 28px;
+  border-top: 1px solid #eef1f4;
+  padding-top: 20px;
+  max-width: 260px;
+}
